@@ -1,30 +1,40 @@
 
-# x= int(input())
-# print(x + 3)
-# x=9
-# y=8
-# z=3
- 
-# # print(y + x + z)
-# x=9//2
-# y=9/2
-# z=9%2
-# print(x) #integer
-# print(y) #float
-# print(z) #reminder
 
-# #power 
-# y=2**3
-# print(y)
+# car = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
 
-# x=input("Write your name ")
-# y=x
-# print(y)
+# x = car.copy()
 
-# y=8
-# z=2
-# print(8%2)
-
-# x=2
-# x =3
 # print(x)
+
+# for i in car:
+#  print(i,car[i])
+
+# car = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# x = car.get("year")
+# y= car["year"]
+# print(y)
+
+# print(x)
+
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.keys()
+y=[]
+for i in car :
+    print(i)
+    print(y.append(i))
+
+
