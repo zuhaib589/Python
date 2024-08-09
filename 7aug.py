@@ -1,3 +1,19 @@
+# s1=[1,2]
+# s2=[]
+# for i in range(len(s1)-1):
+#  s2.append(s1.pop())
+#  popp=s1.pop()
+#  print(popp,s2,s1)
+
+
+# s="Hellow Wolrd"   
+# s= s.split()
+# print(s)
+# s=s[::-1]
+# print(" ".join(s))
+
+
+
 #list recap 
 # list1=[1,2,3,5,6,8,9,6,1,1,] 
 
@@ -99,16 +115,24 @@
 # x=t[0:4]
 # print(type(x))
 
-# s1=[1,2]
-# s2=[]
-# for i in range(len(s1)-1):
-#  s2.append(s1.pop())
-#  popp=s1.pop()
-#  print(popp,s2,s1)
+# z= "zuhaib","zafar","hamza"
+# print(type(z))
+
+# dict={
+#     "name":"zuhaib",
+#     "hello":"zuhaib"
+# }
+# x=list(dict)
+# print(x)
+# print(type(x))
 
 
-# s="Hellow Wolrd"   
-# s= s.split()
-# print(s)
-# s=s[::-1]
-# print(" ".join(s))
+
+# unpacking tuple
+
+t1=1,2,3,"hello"
+v1,v2,v3,v4=t1
+t2=(6,7,8,)
+v1,v2,v3=t2
+print(t1)
+print(v1)
