@@ -88,8 +88,10 @@
 # ordered and unchangeable
 # round brackets()
 
-# z=(1) #int
-# z=(1,) #tuple
+
+# z=(1) #wil conisder it as int
+# z=(1,) #wil conisder it as tuple
+
 # t=("zuhaib","zafar","hamza")
 # print(t[0])
 # print(t[-1])
@@ -97,3 +99,16 @@
 # x=t[0:4]
 # print(type(x))
 
+# s1=[1,2]
+# s2=[]
+# for i in range(len(s1)-1):
+#  s2.append(s1.pop())
+#  popp=s1.pop()
+#  print(popp,s2,s1)
+
+
+# s="Hellow Wolrd"   
+# s= s.split()
+# print(s)
+# s=s[::-1]
+# print(" ".join(s))
