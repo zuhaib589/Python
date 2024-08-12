@@ -14,12 +14,15 @@
 
 
 
-#list recap 
-# list1=[1,2,3,5,6,8,9,6,1,1,] 
+# #list recap 
+list1=[1,2,3,5,6,8,9,6,1,1,] 
+
+# list1[10]=2
+list1.insert(10,"its me")
+print(list1)
+print(list1[10])
 
 
-# print(list1[0])
-# print(list1)
 # list1[1]="go" # will update the value i index 1 
 # print(list1)
 # print(list1[-1])
@@ -112,8 +115,8 @@
 # print(t[0])
 # print(t[-1])
 # print(type(t))
-# x=t[0:4]
-# print(type(x))
+# x=t[0:2]
+# print(x)
 
 # z= "zuhaib","zafar","hamza"
 # print(type(z))
