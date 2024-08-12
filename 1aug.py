@@ -78,5 +78,17 @@
 
 
 #reverse method 
-a="hello, world"
-print((reversed(a)))
+# a="hello, world"
+# print((reversed(a)))
+
+_list_=["zuhaib","ammar"]
+a=sorted(_list_) #return new 
+# _list_.sort() #changes original 
+# print(_list_) 
+for i in range(len(_list_)):
+    print(i)
+#     z=10
+# if z==0:
+#     print("hello")
+# else:
+#     print("no")    
