@@ -48,11 +48,42 @@
 
 
 #join sets intersection and union |(pip sign) operator
-set2={1,2,4,5,"hell0"}
-set3={"zuhaib",2,3,4}
-uni=set2.union(set3)
-print(uni)
+# set2={1,2,4,5,"hell0"}
+# set3={"zuhaib",2,3,4}
+# uni=set2.union(set3) #or set2|set3
+# print(uni)
 
-inter=set2.intersection(set3)
-print(inter)
+# inter=set2.intersection(set3)
+# print(inter)
+
+
+# some set methods
+
+# intersection_update will update first set and reutrn new values
+
+# set2={1,2,4,5,"hell0"}
+# set3={"zuhaib",2,3,4} 
+# set2.intersection_update(set3)
+# print(set2)
+
+# intersection will return us new set 
+# set2={1,2,4,5,"hell0"}
+# set3={"zuhaib",2,3,4}
+# uni=set2.union(set3) #or set2|set3
+# print(uni)
+
+# difference 
+# in first set but not in second
+# set2={1,2,4,5,"hell0"}
+# set3={"zuhaib",2,3,4}
+# x=set2.difference(set3)
+# print(x)
+
+# symmetric difference 
+# will return uncommon in boths
+
+# set2={1,2,4,5,"hell0"}
+# set3={"zuhaib",2,3,4}
+# x=set2.symmetric_difference(set3)
+# print(x)
 
