@@ -39,17 +39,25 @@ else:
 # operation=input("Choose operation: mul, add, sub, div ::")
 
 # if  operation == 'mul':
-#    result=Num1*Num2 
+#    result=Num1*Num2
+
 #    print(result)
+
 # elif  operation == 'add':
 #    result=Num1 + Num2 
+
 #    print(result)
+
 # elif  operation == 'sub':
-#    result=Num1 - Num2 
+#    result=Num1 - Num2
+
 #    print(result) 
+
 # elif  operation == 'div':
 #       if Num2 != 0:
+
 #        result= Num1 / Num2 
+
 #        print(result) 
 #       else:
 #          print("error!! Num 2 cannot be = 0")
