@@ -16,3 +16,12 @@
 # for i in nums:
 # #  print(i,nums[i])
 #  print(nums.index(i))
+
+# 1464. Maximum Product of Two Elements in an Array
+
+
+#  greatest = max(nums)
+#nums.remove(greatest)
+#greater2 = max(nums)
+#product = (greatest-1)* (greater2 - 1)
+#return product
