@@ -9,13 +9,13 @@
 # while loop "it will execute till our given condition get incorrect or false"
 # a=5
 # while a>=1:
-#     print("X"*a)     "For reverse triangle"
-#     a-=1
+#  print("X"*a)    # "For reverse triangle"
+# a+=1
 
 # a=1
 # while a <=5:
-#     # print("X"*a)       "For reverse triangle"
-#     a+=1
+#   print("1"*a)      # "For reverse triangle"
+#   a +=1
 
 
 
