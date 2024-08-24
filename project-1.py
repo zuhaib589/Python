@@ -52,36 +52,25 @@
 print("Student Management System")
 print()
 
-print("1. Add Student Record")
-print("2. Update Student Record")
-print("3. Delete Student Record")
-print("4. View All Student Records")
-print("5. Exit")
-print()
-
-option=input("Please Choose an option ")
-
-if option != "1" or "2" or "3" or "4" or "5":
-  print("Please choose numbers from menu ")
-
-while option =="5":
-  print("Exiting the program.Good Bye! ")
-  break
-# if option == "5":
-#   print("Exiting the program.Good Bye! ")
-#   # Break()
- 
-if option == "1":
-  print("Please Enter Student Data")     
+while True:
+  print("1. Add Student Record")
+  print("2. Update Student Record")
+  print("3. Delete Student Record")
+  print("4. View All Student Records")
+  print("5. Exit")
   print()
-  user_name=input("Write student name ")
-  user_id=int(input("Write student ID "))
-  user_course=(input("Write student Course(sub1,sub2,sub3) ").split(","))
-  user_grades=(input("Write student Grades ").upper().split(","))
-  
-  if len(user_course) > len(user_grades):
-      print("you have used more subject than grades ")
-  elif len(user_grades) > len(user_course):
-    print("you have used more grades than subject")
- 
-
+    
+  option=input("Choose from option ")
+  if option == '1':
+            pass
+  elif option == '2':
+            pass
+  elif option == '3':
+            pass
+  elif option == '4':
+            pass  
+  elif option == '5':
+     print("Exiting the program. Goodbye!")
+     break
+  else:
+    print("Invalid option. Please try again.")  
