@@ -52,19 +52,83 @@
 print("Student Management System")
 print()
 
+student={}
+
+def add_student():
+  
+  #adding record 
+  
+  st_name=input("Write your name: ")
+  st_id=input("Write your ID: ")
+  st_courses=input("Write your course (comma,seprated): ").split(",")
+  st_grades=input("Write your Grades (comma,seprated): ").upper().split(",")
+  
+  if len(st_grades) != len(st_courses):
+   print("The number of grades and course in not equal")
+   
+    #append/add/pushing record in our dictionary on the basis od Student id (st_id)
+    
+  student[st_id]={
+   "name":st_name,
+   "course":[course for course in st_courses],
+   "grades":[grades for grades in st_grades]
+  } 
+  
+  print("Record added successfully")
+  
+def update_student():
+  
+  st_id=input("Write your ID: ")
+  
+  if st_id not in student:
+    print("There is no student of that ID exist ")
+    return
+  print(f"Current data for id : {st_id}")
+  print(f"Name : {student[st_id]["name"]}")
+  print(f"Courses : {",".join(student[st_id]["course"])}")
+  print(f"Grades : {",".join(student[st_id]["grades"])}")
+  
+  
+  st_name=input("Enter new name ")
+  if st_name:
+   student[st_id]["name"]=st_name
+  
+  st_courses=input("Write your new courses (comma,seprated): ").split(",")
+  if st_courses:
+    student[st_id["course"]]=[course for course in  st_courses.split(",")]
+  
+  st_grades=input("Write your new grades (comma,seprated): ").split(",")  
+  if st_grades:
+    if len(st_grades) != len( student[st_id["course"]]):
+      print("The number of new grades must match the number of courses.")
+      return
+    student[st_id["grades"]]=[grade for grade in st_grades]
+    
+    
+  print("student record updated ")
+  
+  
+    
+    
+      
+  
+  
+
+
+
 while True:
-  print("1. Add Student Record")
-  print("2. Update Student Record")
-  print("3. Delete Student Record")
-  print("4. View All Student Records")
+  print("1. Add Student Record ")
+  print("2. Update Student Record ")
+  print("3. Delete Student Record ")
+  print("4. View All Student Records ")
   print("5. Exit")
   print()
     
   option=input("Choose from option ")
   if option == '1':
-            pass
+            add_student()
   elif option == '2':
-            pass
+            update_student()
   elif option == '3':
             pass
   elif option == '4':
