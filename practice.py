@@ -41,4 +41,13 @@ def sort_list(n):
 print(sort_list(l1) )
     
     
-    
+#7:Create a program that takes a list and a number n, and returns a new list with the first n elements removed.
+
+list1=[1,2,3,4,5,6,7,8,9,10]
+
+def removeing_from_list(list1,n):
+   return list1[n+1:]
+
+n=4    
+
+print(removeing_from_list(list1,n))
