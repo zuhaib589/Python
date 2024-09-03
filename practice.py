@@ -46,8 +46,27 @@ print(sort_list(l1) )
 list1=[1,2,3,4,5,6,7,8,9,10]
 
 def removeing_from_list(list1,n):
-   return list1[n+1:]
+   return list1[n:]
 
 n=4    
 
 print(removeing_from_list(list1,n))
+
+
+#Problem 8: Write a function that takes two lists and returns a list containing only the elements that are common to both lists.
+
+def  common_elements(l1,l2):
+    l3=[]
+    for i in range(len(l1)):
+        if l1[i] in l2:
+            l3.append(l1[i])
+    return l3       
+
+    
+    
+    
+ 
+l1=[1,2,3,4,5,6,7,8,9]
+l2=[2,3,4,5,6]
+# common_elements(l1,l2)
+print(common_elements(l1,l2))
