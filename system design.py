@@ -53,4 +53,4 @@ employee.details()
 print("\n")
 
 manager=Manager("Zafar",124,"Computer Scienece")
-manager.details()
+manager.details() 

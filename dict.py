@@ -49,6 +49,6 @@ person ={
 
 for i in person :
  print(i, person[i])
- if( type(person[i])== type({})) :
-  for j in person[i]:
-   print(j,person[i][j]) 
+#  if( type(person[i])== type({})) :
+#   for j in person[i]:
+#    print(j,person[i][j]) 

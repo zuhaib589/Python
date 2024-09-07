@@ -22,10 +22,10 @@
 # pass in loops will pass the 
 
 # Example with a for loop
-# for i in range(5):
-#     if i == 3:
-#         pass  # Do nothing when i is 3
-# print(f"Processing {i}")
+for i in range(5):
+    if i == 3:
+            pass  # Do nothing when i is 3
+    print(f"Processing {i}")
 
 
 #breal statement
