@@ -33,8 +33,8 @@ car = {
 
 x = car.keys()
 y=[]
-for i in car :
-    print(i)
-    print(y.append(i))
+for i in car:
+    print(i,car[i])
+    # print(y.append(i))
 
 
