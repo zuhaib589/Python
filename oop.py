@@ -103,33 +103,33 @@
 #     print(a,b)
 
 
-class car:
-    def __init__(self,model,brand):
-        self.model=model
-        self.brand=brand
+# class car:
+#     def __init__(self,model,brand):
+#         self.model=model
+#         self.brand=brand
         
-    def move(self):
-        print("drive")  
+#     def move(self):
+#         print("drive")  
  
-class boat:
-    def __init__(self,model,brand):
-        self.model=model
-        self.brand=brand
+# class boat:
+#     def __init__(self,model,brand):
+#         self.model=model
+#         self.brand=brand
         
-    def move(self):
-        print("sail")   
+#     def move(self):
+#         print("sail")   
                   
-    def movee(self):
-        print("gggl")             
+#     def movee(self):
+#         print("gggl")             
         
         
-car1=car("honda","X")        
-BOAT1=boat("pak","XX")        
+# car1=car("honda","X")        
+# BOAT1=boat("pak","XX")        
         
-for x in (car1,BOAT1):
-    x.move()   
-    # x.movee()        
+# for x in (car1,BOAT1):
+#     x.move()   
+#     # x.movee()        
 
-        
+# for abstratc class / method 
         
         
