@@ -60,4 +60,4 @@ for i in word1:
     a +=i    
 for j in word2 :
     b += j 
-print (a ==b)
+print (a==b)
