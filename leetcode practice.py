@@ -95,4 +95,4 @@
 #     # Return the result as a list of two lists
 # print( [diff1, diff2])
 
-print(type"123")
+print("123")
