@@ -132,4 +132,28 @@
 
 # for abstratc class / method 
         
+         
+class Dog:
+    def __init__(self,name,breed):
+        self.name=name
+        self.breed=breed
         
+    def display__info(self):
+        print(f'Dog name is {self.name} and  its breed is {self.breed}') 
+        
+class puppy(Dog):
+    
+    def __init__(self,age):
+        self.age=age    
+            
+    def display_age(self):
+        print(f'Age is {self.age}') 
+               
+        
+        
+
+dog=Dog("jacky","German Shepherd") 
+dog.display__info() 
+
+pups=puppy(17)
+pups.display_age()       

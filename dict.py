@@ -1,6 +1,5 @@
 ##dictionary in python          
 
-
 #how to create dictionary 
 
 # person ={
@@ -52,3 +51,5 @@ for i in person :
 #  if( type(person[i])== type({})) :
 #   for j in person[i]:
 #    print(j,person[i][j]) 
+
+
