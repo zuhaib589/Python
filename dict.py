@@ -106,4 +106,4 @@ del student["roll-no"]
 print(student)
 
 for i in student:
-    print(f"your {i} is {student[i]}")
+    print(f"your {i} is {student[i]}") # i will print key and student[i] will print values
