@@ -107,3 +107,15 @@ print(student)
 
 for i in student:
     print(f"your {i} is {student[i]}") # i will print key and student[i] will print values
+    
+    
+    #Adding two dictionary 
+teacher={
+    "t_name":"Asma",
+    "subject":"Database"
+}    
+student.update(teacher)
+print(student)
+
+x=student | teacher
+print(x)
