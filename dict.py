@@ -119,3 +119,5 @@ print(student)
 
 x=student | teacher
 print(x)
+
+print(student)
