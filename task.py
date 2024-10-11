@@ -9,12 +9,18 @@
 # else:
 #      print(f'{c} is greater than {a} and {b} ')
 
-edx=1
-ebx=100
-count=0
-while edx < ebx:
-    edx += 1
-    count +=1
-print(count)    
+# edx=1
+# ebx=100
+# count=0
+# while edx < ebx:
+#     edx += 1
+#     count +=1
+# print(count)    
 
 
+a=[1,2]
+b=a
+a=0
+# a[0]=99
+print(a)
+print(b)
