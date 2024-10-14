@@ -26,3 +26,4 @@
 l2=[1,2,3,4,5,6,7,8,9,10]
 lambda_function=list(filter(lambda i :i >5 or i %2 ==0,l2))
 print(lambda_function)
+print(lambda_function)
