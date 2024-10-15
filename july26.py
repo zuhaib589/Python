@@ -52,3 +52,4 @@ print(5<9 and 6<5)
 print(5<9 or 6<5)
 # not true = false , false= true
 print(not 6<5)
+print(not 6<5)
