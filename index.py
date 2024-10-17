@@ -35,7 +35,7 @@ x = car.keys()
 y=[]
 for i in car:
     print(i,car[i])
-    # print(y.append(i))
+    print(y.append(i))
 print("hello world")
 
 
