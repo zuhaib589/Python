@@ -54,3 +54,4 @@
 
 a="head"
 print(a)
+print(a[0:])
