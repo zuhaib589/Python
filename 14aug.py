@@ -62,5 +62,6 @@
 # print(dict)
 
 # nested list/dictionary
-# list=[[1,2,3],[2.0,4.5],["hello","zuhaib"]]
-# print(list[1][1])
+list=[[1,2,3],[2.0,4.5],["hello","zuhaib"]]
+print(list[1][1])
+print(list[0][1])
