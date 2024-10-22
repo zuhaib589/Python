@@ -70,3 +70,11 @@ l1=[1,2,3,4,5,6,7,8,9]
 l2=[2,3,4,5,6]
 # common_elements(l1,l2)
 print(common_elements(l1,l2))
+
+
+def hi(a,b):
+    return a + b
+
+
+x=hi(4,5)
+print(x)
