@@ -78,3 +78,5 @@ def hi(a,b):
 
 x=hi(4,5)
 print(x)
+x=hi(10,5)
+print(x)
