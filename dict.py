@@ -61,63 +61,63 @@ student={
     "uni":"National university of modern language",    
 }
 
-print(student['name'])
+# print(student['name'])
 
-copyList=student.copy()
+# copyList=student.copy()
 
-print(copyList)
+# print(copyList)
 
-copyList.clear()
+# copyList.clear()
 
-print(copyList)
+# print(copyList)
 
 # x=["key1","key2","key3"]
 # y=["val1","val2","val3"]
 # td=dict.fromkeys(x,y) #it will take 1st argu as keys and 2nd argu as value for every key there will be all values as in 2nd argu
 # print(td) #E.g key1["val1","val2","val3"]
 
-print(student.get("Age")) #specific value as per given key 
+# print(student.get("Age",30)) #specific value as per given key 
 
-print(student.items()) #will return tuple for every key-value pair 
+# print(student.items()) #will return tuple for every key-value pair 
 
-print(student.keys()) #will return all keys in dict
+# print(student.keys()) #will return all keys in dict
 
-print(student.pop("name")) #will remove given value
+# print(student.pop("name")) #will remove given value
 
-# print(student["name"]) # will give error as we have poped it 
+# # print(student["name"]) # will give error as we have poped it 
 
-print(student.popitem()) # will pop last key-value pair 
+# print(student.popitem()) # will pop last key-value pair 
 
-x=student.setdefault("Age","21") # ans 20 will set default value of key if not given else it will add new pair 
-
-x=student.setdefault("Name","zuhaib zafar") #add name and zuhaib as key value will set default value of key if not given else it will add new pair 
+x=student.setdefault("Agee","21") # ans 20 will set default value of key if not given else it will add new pair 
 print(x)
+# x=student.setdefault("Name","zuhaib zafar") #add name and zuhaib as key value will set default value of key if not given else it will add new pair 
+# print(x)
 
-y=student.update({"subject":"6"}) # will add new pair
+# y=student.update({"subject":"6"}) # will add new pair
 
-y=student.update({"class":"BSCS 6TH"}) # key-value update existing 
+# y=student.update({"class":"BSCS 6TH"}) # key-value update existing 
 
-print(student)
+# print(student)
 
-print(student.values()) #will print all values 
+# print(student.values()) #will print all values 
 
-del student["roll-no"]
+# del student["roll-no"]
 
-print(student)
+# print(student)
 
-for i in student:
-    print(f"your {i} is {student[i]}") # i will print key and student[i] will print values
+# for i in student:
+#     print(f"your {i} is {student[i]}") # i will print key and student[i] will print values
     
     
-    #Adding two dictionary 
-teacher={
-    "t_name":"Asma",
-    "subject":"Database"
-}    
-student.update(teacher)
-print(student)
+#     #Adding two dictionary 
+# teacher={
+#     "t_name":"Asma",
+#     "subject":"Database"
+# }    
+# student.update(teacher)
+# print(student)
 
-x=student | teacher
-print(x)
+# x=student | teacher
+# print(x)
 
-print(student)
+# print(student)
