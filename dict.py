@@ -88,7 +88,7 @@ student={
 
 # print(student.popitem()) # will pop last key-value pair 
 
-x=student.setdefault("Agee","21") # ans 20 will set default value of key if not given else it will add new pair 
+x=student.setdefault("Age","21") # ans 20 will set default value of key if not given else it will add new pair 
 print(x)
 # x=student.setdefault("Name","zuhaib zafar") #add name and zuhaib as key value will set default value of key if not given else it will add new pair 
 # print(x)
