@@ -95,4 +95,42 @@
 #     # Return the result as a list of two lists
 # print( [diff1, diff2])
 
-print("123")
+# print("123")
+
+
+# Q: Ask the user to enter three numbers. Add together the first two numbers and then multiply this total by the third. Display the answer as The answer is [answer].
+
+# num1=int(input("Enter 1st number "))
+# num2=int(input("Enter 2nd number "))
+# num3=int(input("Enter 3rd number "))
+
+# answer=(num1+num2)*num3
+# print(f'Answer is {answer}')
+
+# Q: Ask the user for their name and their age. Add 1 to their age and display the output [Name] next birthday you will be [new age].
+
+""" name=input("Enter your name ")
+age=int(input("Enter your age "))
+print(f"{name} next birthday you will be {age+1} ") """
+
+# Q:Ask the user to enter their first name and surname is lower case. Change the case to title case and join them together. Display the finished result.
+
+""" f_name=input("Enter first name ").lower()
+    l_name=input("Enter last name ").lower()
+    print(f_name.title() + " " + l_name.title()) """
+    
+#  Q:Ask the user to type in the first line of a nursery rhyme and display the length of the string. Ask for a string number and an ending number and then display just that section of the text (remember Python starts counting from 0 and not 1).
+
+text=input("Enter Nursery Rhyme: ")
+len_text=len(text)
+print(f"Lenght of string is {len_text}")
+print()
+print("Write starting and ending number to see subtext from original (index base remember it starts from 0 ) ")
+
+s_num=int(input("Enter starting number: " ))
+e_num=int(input("Enter ending number: " ))
+
+print(text[s_num:e_num])
+
+   
+
