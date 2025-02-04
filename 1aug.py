@@ -25,7 +25,7 @@ a="zuhaib"
 # # # # print(a[0:len(a)-1]) #[start(included) :end(not included) ]
 b=a[len(a)-1] #len(a)=6 [-1]=5 at index 5 "b" is present 
 print(b)
-print(a[-4:-1])
+print(a[-4:-2])
 
 # # #slicing step 
 
