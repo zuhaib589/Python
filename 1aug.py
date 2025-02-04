@@ -21,11 +21,11 @@
 
 # # #---Slicing String
 
-# # # a="zuhaib"
+a="zuhaib"
 # # # # print(a[0:len(a)-1]) #[start(included) :end(not included) ]
-# # # # b=a[len(a)-1] #len(a)=6 [-1]=5 at index 5 "b" is present 
-# # # # print(b)
-# # # print(a[-4:2])
+b=a[len(a)-1] #len(a)=6 [-1]=5 at index 5 "b" is present 
+print(b)
+print(a[-4:-1])
 
 # # #slicing step 
 
@@ -81,12 +81,12 @@
 # a="hello, world"
 # print((reversed(a)))
 
-_list_=["zuhaib","ammar"]
-a=sorted(_list_) #return new 
-# _list_.sort() #changes original 
-# print(_list_) 
-for i in range(len(_list_)):
-    print(i)
+# _list_=["zuhaib","ammar"]
+# a=sorted(_list_) #return new 
+# # _list_.sort() #changes original 
+# # print(_list_) 
+# for i in range(len(_list_)):
+#     print(i)
 #     z=10
 # if z==0:
 #     print("hello")
