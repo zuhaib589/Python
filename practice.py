@@ -81,7 +81,7 @@
 # x=hi(10,5)
 # print(x)
 
-a=100
-for i in range(a):
-      a = a-1 
-print(a)        
+# a=100
+# for i in range(a):
+#       a = a-1 
+# print(a)        
