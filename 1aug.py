@@ -171,11 +171,11 @@ Print the final result in a formatted message like:
 "The final result is: 45"
 '''
 
-num1=int(input("Enter Number 1 : "))
-num2=int(input("Enter Number 2 : "))
-num3=int(input("Enter Number 3 : "))
-sum_1_2=num1 + num2
-print(f'Sum of Number 1 and Number 2 is = {sum_1_2}')
-mul_3= sum_1_2 * num3
-print(f'After multiplying {num3} with sum  {sum_1_2}')
-print(f'The Final Result is = {mul_3}')
+# num1=int(input("Enter Number 1 : "))
+# num2=int(input("Enter Number 2 : "))
+# num3=int(input("Enter Number 3 : "))
+# sum_1_2=num1 + num2
+# print(f'Sum of Number 1 and Number 2 is = {sum_1_2}')
+# mul_3= sum_1_2 * num3
+# print(f'After multiplying {num3} with sum  {sum_1_2}')
+# print(f'The Final Result is = {mul_3}')
