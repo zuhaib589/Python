@@ -19,8 +19,11 @@
 
 
 a=[1,2]
-b=a
-a=0
+b=a.copy
+# a=0
 # a[0]=99
 print(a)
 print(b)
+# b.push(7)
+print(b)
+print(a)
