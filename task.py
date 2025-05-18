@@ -18,11 +18,11 @@
 # print(count)    
 
 
-a=[1,2]
-b=a
-a[0]=99
-print(a)
-print(b)
-b.pop()
-print(b)
-print(a)
+# a=[1,2]
+# b=a
+# a[0]=99
+# print(a)
+# print(b)
+# b.pop()
+# print(b)
+# print(a)
