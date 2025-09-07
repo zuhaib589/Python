@@ -5,7 +5,8 @@
 #      "Age" : 20,
 #     "Class":"BSCS-5",
 #     "City":"Faisalabad",
-#     "Country":"Pakistan",
+    "Country":"Pakistan",
+     "ad":"as",}
     
 # }
 # print(dict)
